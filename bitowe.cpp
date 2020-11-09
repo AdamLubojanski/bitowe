@@ -11,14 +11,14 @@ int main() {
     cout<<"podaj b";
     cin>>b;
 
-    cout<<"a= "<<a<<bitset<8>(a)<<endl;
-    cout<<"b= "<<b<<bitset<8>(b)<<endl;
-    cout<<"a|b= "<<(a^b)<<" "<<bitset<8>(a^b)<<endl;
-    cout<<"a&b= "<<(a|b)<<" "<<bitset<8>(a|b)<<endl;
-    cout<<"a^b= "<<(a&b)<<" "<<bitset<8>(a&b)<<endl;
-    cout<<"~a= "<<(~a)<<" "<<bitset<8>(~a)<<endl;
-    cout<<"~b= "<<(~b)<<" "<<bitset<8>(~b)<<endl;
-    cout<<"a<<=4 "<<(a<<=1)<<" "<<bitset<8>(a<<=1)<<endl;
-    cout<<"b>>=1 "<<(b>>=1)<<" "<<bitset<8>(b>>=1)<<endl;
+    cout<<"a= "<<a<<"="<<bitset<8>(a)<<endl;
+    cout<<"b= "<<b<<"="<<bitset<8>(b)<<endl;
+    cout<<"a|b= "<<(a^b)<<"="<<bitset<8>(a^b)<<endl;
+    cout<<"a&b= "<<(a|b)<<"="<<bitset<8>(a|b)<<endl;
+    cout<<"a^b= "<<(a&b)<<"="<<bitset<8>(a&b)<<endl;
+    cout<<"~a= "<<(~a)<<"="<<bitset<8>(~a)<<endl;
+    cout<<"~b= "<<(~b)<<"="<<bitset<8>(~b)<<endl;
+    cout<<"a<<=4 "<<(a<<=1)<<"="<<bitset<8>(a<<=1)<<endl;
+    cout<<"b>>=1 "<<(b>>=1)<<"="<<bitset<8>(b>>=1)<<endl;
     return 0;
 }
